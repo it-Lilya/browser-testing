@@ -1,0 +1,59 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+.list_cards {
+    width: 320px;
+    height: 40px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.card {
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    background-position: center center;
+    opacity: 0.3;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.active {
+    opacity: 1;
+    z-index: 1;
+}
+
+.visa {
+    background-image:url('https://images.freeimages.com/fic/images/icons/2102/credit_card_debit_card/102/visa_curved.png');
+ }
+
+.master {
+    background-image: url('https://images.freeimages.com/fic/images/icons/2102/credit_card_debit_card/102/mastercard_curved.png');
+}  
+
+.amex {
+    background-image: url('https://images.freeimages.com/fic/images/icons/2102/credit_card_debit_card/102/american_express_straight.png');
+}
+
+.discover {
+    background-image: url('https://images.freeimages.com/fic/images/icons/2395/credit_card_debit_card_and_payment_icons/202/discover_straight_128px.png');
+}
+
+.mir {
+    background-image: url('https://www.the.willk.in/pictures/logo-mir.png');
+}
+
+.input {
+    height: 20px;
+}
+
+.btn {
+    /* color: rgb(255, 255, 255);*/
+    background-color: rgba(0, 61, 10, 0.2); 
+    border-radius: 10px;
+    height: 30px;
+    border:rgb(255, 255, 255);
+}
